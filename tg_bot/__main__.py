@@ -20,7 +20,7 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hi {}, my name is {}!
+Hi {}, my name is {Tanjirou the group management Bot.}!
 
 You can find the list of available commands with /help.
 """
@@ -28,10 +28,10 @@ You can find the list of available commands with /help.
 BOT_IMAGE = "https://telegra.ph/file/93612a540608640355f20.mp4"
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
+Hey there! My name is *{Tanjirou}*.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
-If you have any questions on how to use me, head over to @PhoenixSupport
+If you have any questions on how to use me, head over to @TanjirouSupport
 
 *Main* commands available:
  - /start: start the bot
@@ -46,9 +46,9 @@ If you have any questions on how to use me, head over to @PhoenixSupport
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-DONATE_STRING = """{0} doesn't currently need any donations.
+DONATE_STRING = """{0} we are currently in need of donations.
 However you can donate to the creator of the original source code which {0} \
-is based on:- [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen).""".format(dispatcher.bot.first_name)
+is based on:- [PayPal](paypal.me/AjayiMayowa).""".format(dispatcher.bot.first_name)
 
 IMPORTED = {}
 MIGRATEABLE = []
