@@ -1,4 +1,4 @@
-# Pɧơɛnıх
+# Tåñjîrøü
 A modular telegram Python bot running on python3 with an sqlalchemy database.
 
 Originally a Goodness Ebenezer fork, Pɧơɛnıх was created for personal use by [this person](https://t.me/ajayimayowa). Feel free to add it to your groups though!
